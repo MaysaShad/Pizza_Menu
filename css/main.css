@@ -1,0 +1,89 @@
+.bg-image {
+  background-image: url("../img/01.jpg");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.bg-image-between {
+  background-image: url("../img/cta-bg.jpg");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-shadow {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+a.hover-1 {
+  position: relative;
+  color: white !important;
+}
+
+a.hover-1:hover {
+  color: red !important;
+}
+.card {
+  cursor: pointer;
+  transition: ease 0.5s;
+}
+.card:hover {
+  transform: translateY(-15px);
+}
+.card1 {
+  cursor: pointer;
+  transition: ease 0.7s;
+}
+.card1:hover {
+  transform: translateY(-10px);
+}
+.resim-container {
+  position: relative;
+  display: inline-block;
+}
+
+.resim-container img {
+  display: block;
+}
+
+.ikon {
+  position: absolute;
+  font-size: 2em;
+  color: white;
+  display: none;
+  bottom: 10px;
+  left: 20%;
+}
+
+.ikon-1 {
+  left: 25%; /* Resmin genişliğinin %25'i kadar soldan */
+  transform: translateX(-50%); /* Yatayda ortalar */
+}
+
+.ikon-2 {
+  left: 50%; /* Resmin genişliğinin %40'ı kadar soldan */
+  transform: translateX(-50%); /* Yatayda ortalar */
+}
+
+.ikon-3 {
+  left: 75%; /* Resmin genişliğinin %55'i kadar soldan */
+  transform: translateX(-50%); /* Yatayda ortalar */
+}
+
+.resim-container:hover .ikon {
+  display: block;
+}
+.gravitas-one-regular {
+  font-family: "Gravitas One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
